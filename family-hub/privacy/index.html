@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | CloudKep Family Hub</title>
+  <meta name="description" content="Privacy practices for CloudKep Family Hub, including its use of Google Calendar data.">
+  <link rel="canonical" href="https://legal.cloudkep.com/family-hub/privacy/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="site-shell">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/">CloudKep</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/family-hub/">Family Hub</a>
+        <a aria-current="page" href="/family-hub/privacy/">Privacy</a>
+        <a href="/family-hub/terms/">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <p class="eyebrow">CloudKep Family Hub</p>
+      <h1>Privacy Policy</h1>
+      <p class="lede">How Family Hub accesses, uses, stores, and shares information, including information received through Google APIs.</p>
+      <p class="meta"><strong>Effective date:</strong> September 23, 2026</p>
+    </section>
+
+    <article class="content-card">
+      <h2>1. Scope</h2>
+      <p>CloudKep Family Hub ("Family Hub") is a private, self-hosted household application intended for use by members of a single household. It is not a public consumer service and does not offer public user registration.</p>
+      <p>Family Hub may process information entered directly by household members as well as information obtained from services that household members choose to connect.</p>
+
+      <h2>2. Google user data accessed</h2>
+      <p>When a user chooses to connect a Google account, Family Hub requests permission to access Google Calendar information. Depending on the permissions granted, this may include:</p>
+      <ul>
+        <li>The user's available calendar list and calendar metadata.</li>
+        <li>Calendar names and identifiers.</li>
+        <li>Calendar events and event details.</li>
+        <li>Event titles, descriptions, dates, times, locations, recurring-event information, and other event metadata supplied by the Google Calendar API.</li>
+        <li>Authorization information necessary to maintain the Google Calendar connection, including OAuth access and refresh credentials.</li>
+      </ul>
+      <p>Family Hub does not request access to Gmail, Google Photos, Google Drive, Google Contacts, or other unrelated Google account data as part of its Calendar integration.</p>
+
+      <h2>3. How Google user data is used</h2>
+      <p>Google Calendar data is used only to provide Family Hub features requested by household members. These uses include:</p>
+      <ul>
+        <li>Displaying household calendars and upcoming events.</li>
+        <li>Synchronizing calendar information for display within Family Hub.</li>
+        <li>Creating calendar events when explicitly requested by an authorized household member.</li>
+        <li>Editing supported calendar events when explicitly requested.</li>
+        <li>Creating a Family Hub task from a selected calendar event.</li>
+        <li>Creating a calendar event from a selected Family Hub task.</li>
+        <li>Maintaining links between Family Hub tasks and calendar events to prevent duplicate actions.</li>
+      </ul>
+      <div class="callout"><strong>Family Hub does not use Google user data for advertising, targeted marketing, credit decisions, user profiling, or sale.</strong></div>
+
+      <h2>4. Storage of Google user data</h2>
+      <p>Family Hub is self-hosted on privately operated household infrastructure. Relevant Google Calendar event information may be cached in Family Hub's local PostgreSQL database so calendars can be displayed efficiently and remain available during temporary provider interruptions.</p>
+      <p>OAuth refresh credentials are stored encrypted on the Family Hub server. Google client secrets, refresh credentials, and access credentials are not intentionally exposed through the Family Hub browser interface. Google access tokens are used server-side to communicate with Google APIs.</p>
+
+      <h2>5. Sharing and disclosure</h2>
+      <p>Family Hub does not sell Google user data and does not share Google user data with advertisers, data brokers, or unrelated third parties.</p>
+      <p>Google Calendar information may be displayed to authorized household members through the Family Hub interface because providing a shared household calendar is a core function of the application.</p>
+      <p>Data may pass through infrastructure required to operate the service, such as household-controlled hosting, networking, reverse-proxy, database, and backup systems. Those systems are used to operate Family Hub.</p>
+
+      <h2>6. AI and model training</h2>
+      <p>Google user data obtained through the Family Hub Google Calendar integration is not sold or provided to third parties for advertising and is not used to train general-purpose artificial intelligence or machine-learning models.</p>
+      <p>If future Family Hub features use calendar information with an AI assistant, the privacy policy and user-facing controls will be updated before that use is enabled.</p>
+
+      <h2>7. Data retention</h2>
+      <p>Family Hub may retain synchronized calendar information while a Google Calendar connection remains configured so the household calendar can be displayed and synchronized. Cached calendar records may remain locally until they are updated, removed through synchronization, or deleted by the household administrator.</p>
+      <p>Authorization credentials are retained only as needed to maintain the requested Google integration.</p>
+
+      <h2>8. Disconnecting Google Calendar</h2>
+      <p>A household administrator can disconnect a Google Calendar account from Family Hub. Users may also revoke Family Hub's authorization through their Google Account security and connected-app settings.</p>
+      <p>Revoking authorization prevents Family Hub from making future authenticated Google API requests using that authorization. Disconnecting or revoking access may not automatically remove all previously cached local calendar records; the household administrator may remove locally stored Family Hub data when appropriate.</p>
+
+      <h2>9. Security</h2>
+      <p>Family Hub uses technical measures appropriate for a private self-hosted household application, including encrypted credential storage, server-side OAuth handling, restricted application access, household-scoped authorization controls, and HTTPS access through the configured application origin.</p>
+      <p>No system can guarantee absolute security, and Family Hub is provided for private household use rather than as a commercial hosted service.</p>
+
+      <h2>10. Children's information</h2>
+      <p>Family Hub may display household information relating to family members, including children, when household members intentionally enter or connect that information. Family Hub is not offered directly to children as a public online service and does not knowingly solicit information from the general public.</p>
+
+      <h2>11. Changes to this policy</h2>
+      <p>This Privacy Policy may be updated if Family Hub's features or data practices change. Material changes involving Google user data will be reflected here and, where appropriate, within the Family Hub application before the new use is enabled.</p>
+
+      <h2>12. Contact</h2>
+      <p>Questions regarding this Privacy Policy or Family Hub's handling of Google user data may be sent to <a href="mailto:tatekeplinger@gmail.com">tatekeplinger@gmail.com</a>.</p>
+      <p><a href="https://legal.cloudkep.com/family-hub/">CloudKep Family Hub</a></p>
+      <p class="meta"><strong>Last updated:</strong> September 23, 2026</p>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 CloudKep</span>
+      <div class="footer-links">
+        <a href="/family-hub/">Home</a>
+        <a href="/family-hub/privacy/">Privacy</a>
+        <a href="/family-hub/terms/">Terms</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
