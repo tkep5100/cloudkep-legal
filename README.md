@@ -4,10 +4,19 @@ Public static application and policy pages for CloudKep projects.
 
 ## CloudKep Family Hub
 
-Intended production URLs:
+Production URLs:
 
 - https://legal.cloudkep.com/family-hub/
 - https://legal.cloudkep.com/family-hub/privacy/
 - https://legal.cloudkep.com/family-hub/terms/
 
-The site is plain static HTML/CSS and is designed for deployment through Cloudflare Pages/Workers static assets. No build step is required.
+## Deployment
+
+This repository deploys to Cloudflare Workers Static Assets through Git integration.
+
+- Build command: none
+- Deploy command: `npx wrangler deploy`
+- Assets directory: `./public`
+- Production branch: `main`
+
+The site is plain static HTML/CSS with no application build step and no runtime secrets.
